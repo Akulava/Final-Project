@@ -1,0 +1,35 @@
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: $color-violet--darken;
+  }
+  
+  html,
+  body {
+    font-family: $font-family;
+    font-size: $font-13;
+  
+    overflow-x: hidden;
+    background: $primary-color;
+  }
+
+  .container {
+    max-width: 1350px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    padding: $p-2;
+  
+    font-size: $font-48;
+    font-weight: $font-w-700;
+  
+    text-align: center;
+    letter-spacing: .2rem;
+    line-height: 55px;
+    color: $color-green;
+  
+    cursor: pointer;
+  }  
