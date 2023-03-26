@@ -1,12 +1,16 @@
-$primary-color:  linear-gradient(110deg, rgb(247, 199, 247) 46%, rgb(211, 181, 204) 95%);
+$primary-color: linear-gradient(110deg, rgb(223, 142, 202) 46%, rgb(203, 107, 223) 95%);
 $secondary-color: #272727;
 $color-white: #ffffff;
 $color-black: #000000;
 $color-gray: #6d6d6d;
 $color-yellow: #ccf730;
 $color-blue: #20dad1;
-$color-violet: #c52387;
-$color-violet--darken: #ba75df;
+$color-violet: #e7299e;
+$color-violet--darken: #be57f5;
+$box-shadow: rgba(236, 222, 236, 0.4);
+$box-shadow-second: rgba(245, 240, 200, 0.4);
+$box-shadow-third: rgba(215, 238, 238, 0.1);
+$bg-card: linear-gradient(140.32deg, #f7c2e9 -277.16%, #fcc6ec 66.28%);
 
 // FONT-SIZE
 $font-8: 8px;
@@ -32,7 +36,7 @@ $font-w-700: 700;
 $font-w-900: 900;
 
 // FONT-FAMILY
-$font-family: 'Poppins', sans-serif;
+$font-family: 'Sofia Sans', sans-serif;
 
 
 // PADDING

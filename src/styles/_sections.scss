@@ -1,0 +1,63 @@
+.section {
+    padding: $p-3 0;
+
+    &__block {
+        @include flex();
+
+        &_image {
+            position: relative;
+    
+            width: 50%;
+            padding: $p-3;
+        }
+
+        &_description {
+            @include transition();
+            position: relative;
+    
+            width: 50%;
+            padding: $p-2;
+    
+            text-align: center;
+    
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__image {
+        display: flex;
+        justify-content: center;
+    }
+
+    &-1,
+    &-2 {
+        margin-top: $m-6;
+    }
+
+    &-4 {
+        .cards {
+          position: absolute;
+          top: 18rem;
+          right: 7rem;
+
+          z-index: 2;
+        }
+    }
+
+    &-6 {
+        .title-description {
+            position: absolute;
+            left:  45rem;
+            width: 100vw;
+
+            transform: rotate(-90deg);
+        }
+    }
+}
+  
+
+.line {
+    border-bottom: 2px solid $color-yellow;
+}
