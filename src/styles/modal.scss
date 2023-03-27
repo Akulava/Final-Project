@@ -1,0 +1,19 @@
+.modal {
+    backdrop-filter: blur(8px);
+  
+    &-header {
+      background: $color-violet;
+      color:$color-white;
+      border-bottom: none;
+    }
+  
+    &-body {
+      background: $bg-card;
+    }
+  }
+  
+  .close {
+    opacity: 1;
+    text-shadow: none;
+  }
+  

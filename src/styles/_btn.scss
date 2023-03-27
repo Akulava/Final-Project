@@ -1,0 +1,47 @@
+.btn_1 {
+    @include transition();
+  
+    display: inline-block;
+    width: 180px;
+    height: 60px;
+    margin: $m-4;
+  
+    text-decoration: none;
+    line-height: 55px;
+    border-radius: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+  
+    font-size: $font-18;
+    font-weight: $font-w-700;
+  
+    color: $color-blue;
+    background: $color-yellow;
+    box-shadow: 0 1px 1px $box-shadow-third;
+  
+    &:hover {
+      @include filter();
+  
+      color: $color-blue;
+      box-shadow: 0 1px 1px $box-shadow-second;
+      text-decoration: none;
+  
+      transform: translateY(-3px);
+    }
+  
+    &__more {
+      background: $color-yellow;
+    }
+  
+    &__up {
+      position: fixed;
+      right: 20px;
+      bottom: 0;
+  
+      cursor: pointer;
+  
+    &_hide {
+        display: none;
+      }
+    }
+  }
