@@ -56,7 +56,7 @@ input {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ccf730;
+  background: #ffd846;
 }
 
 html,
@@ -68,7 +68,7 @@ body {
 }
 
 .container {
-  max-width: 1350px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -79,7 +79,7 @@ body {
   text-align: center;
   letter-spacing: 0.2rem;
   line-height: 50px;
-  color: #ccf730;
+  color: #ffd846;
   cursor: pointer;
 }
 .title-section {
@@ -87,7 +87,7 @@ body {
   line-height: 30px;
   font-size: 28px;
   text-align: center;
-  color: #ccf730;
+  color: #60247b;
 }
 .title-description {
   padding: 0 0.5rem;
@@ -111,7 +111,7 @@ body {
   text-decoration: none;
 }
 .logo-title:hover {
-  color: #ccf730;
+  color: #ffd846;
   text-decoration: none;
 }
 
@@ -127,6 +127,15 @@ body {
   height: 80%;
 }
 
+.lists {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 2rem;
+}
+
 .btn_1 {
   transition: all 0.3s;
   display: inline-block;
@@ -140,19 +149,19 @@ body {
   letter-spacing: 1px;
   font-size: 18px;
   font-weight: 700;
-  color: #20dad1;
-  background: #ccf730;
+  color: #60247b;
+  background: #ffd846;
   box-shadow: 0 1px 1px rgba(215, 238, 238, 0.1);
 }
 .btn_1:hover {
   filter: blur(4px);
-  color: #20dad1;
+  color: #60247b;
   box-shadow: 0 1px 1px rgba(245, 240, 200, 0.4);
   text-decoration: none;
   transform: translateY(-3px);
 }
 .btn_1__more {
-  background: #ccf730;
+  background: #ffd846;
 }
 .btn_1__up {
   position: fixed;
@@ -162,6 +171,22 @@ body {
 }
 .btn_1__up_hide {
   display: none;
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.swiper-scrollbar {
+  bottom: 0;
+}
+.swiper-scrollbar-drag {
+  background-color: #ffd846;
 }
 
 .navbar {
@@ -195,10 +220,10 @@ body {
   text-decoration: none;
   line-height: 10px;
   color: #000000;
-  font-size: 16px;
+  font-size: 18px;
 }
 .navbar__link:hover {
-  color: #ccf730;
+  color: #ffd846;
   text-decoration: none;
 }
 
@@ -259,7 +284,7 @@ body {
 }
 
 .line {
-  border-bottom: 2px solid #ccf730;
+  border-bottom: 2px solid #ffd846;
 }
 
 .footer {
