@@ -32,6 +32,7 @@
        <div class="logo">
           <img src="./img/icons/logo1.png" alt="logo" width="90" height="90">
           <a href="./index.html" class="logo-title">ITChild</a>
+          <a href="#Заявка" class="btn_1 btn_1__more">Записаться на курс</a>
         </div> 
     
     <nav class="navbar">
@@ -55,9 +56,10 @@
               </div>
               <h1 class="title">Суперсила <br> Для суперзавтра</h1>
               <p class="title-description">Со школой онлайн-программирования <br> для детей и подростков от 8-17 лет</p>
-              <a href="#" class="btn_1 btn_1__more" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Полетели!</a>
+              <a href="#Заявка" class="btn_1 btn_1__more">Полетели!</a>
             </div>
-             <img src="./img/icons/controller.png" alt="cards" class="image__card">
+             <img src="./img/icons/controller.png" alt="cards" class="controller" width="90">
+             <div class="color-box"></div>
           </div>
         </section>
 
@@ -145,7 +147,7 @@
             <div class="section__block">
               <ul class="navbar__lists">
                 <li class="navbar__list">
-                  <img src="img/icons/logo1.png" alt="icon" width="120" height="100">
+                  <img src="./img/icons/logo1.png" alt="icon" width="120" height="100">
                   <h3 class="title-section">Готовимся к перспективным профессиям</h3>
                   <p class="title-description">Прокачиваем математическое мышление и пробуем себя в самых перспективных IT-направлениях</p>
                 </li>
@@ -209,32 +211,58 @@
           </div>
         </section>
         
-        <section class="container section section-6 line">
-          <h1 class="title">Ничего не понимаете в этих блогерах и питонах?</h1>
-          <p class="title-section">Оставьте заявку на бесплатную консультацию: мы подскажем, с чего начать.</p>
-          <a href="#" class="btn_1 btn_1__more" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Оставить заявку</a>
-        </section>
+      <section class="container section section-6 line">
+          <h1 class="title">Оставьте заявку на обучение</h1>
+        <div id="Заявка" class="section__block">
+          <div class="section__block_description">
+            <form action="https:/fe.it-academy.by/TestForm.php" method="post" target="_blank">
+            <fieldset>
+              <label for="name">Имя</label>
+              <input type="text" name="name" required placeholder="Ввевиде Ваше имя"><br>
+              <br>
+              <label for="tel">Телефон</label>
+              <input type="tel" name="tel" required placeholder="+375 29 ___-__-__">
+              <br>
+              <button type="submit" class="btn_1">Оставить заявку</button>
+              <br>
+              <input type="checkbox" name="info">
+              <label for="info">Хочу получать информацию о курсах</label>
+            </fieldset>
+            </form>
+        </div>
 
-        <section class="container section section-7 line">
-          <form action="https:/fe.it-academy.by/TestForm.php" method="post" target="_blank">
-                <fieldset>
-                    <strong>Ваше Имя:</strong>
-                    <br>
-                    <input type="text" name="first_name" placeholder="Введите имя">
-                    <br>
-                    <br>
-                    <strong>Ваш телефон</strong> 
-                    <br>
-                    <input type="tel" name="tel" placeholder="+375 29 ___-__-__">
-                    <br>
-                    <button type="submit" class="button">Оставить заявку</button>
-                    <br>
-                    <strong id="first-radio">Хочу получать информацию о курсах</strong>
-                    <br>
-                </fieldset>
-          </form>
-        </section>
-    </main>
+        <div class="section__block_description">
+          <ul class="lists">
+
+            <li class="navbar__list">
+              <div class="block">
+                <img src="./img/icons/icon1.jpg" alt="icon" width="100" height="100">
+                <div class="block-text">
+                  <h3 class="title-section">Отправим на почту подробную презентацию курсов</h3>
+                </div>
+              </div>
+            </li>
+            <li class="navbar__list">
+              <div class="block">
+                <img src="./img/icons/icon2.jpg" alt="icon" width="100" height="100">
+                <div class="block-text">
+                  <h3 class="title-section">Перезвоним, поможем подобрать курс</h3>
+                </div>
+              </div>
+            </li>
+            <li class="navbar__list">
+              <div class="block">
+                <img src="./img/icons/icon3.jpg" alt="icon" width="100" height="100">
+                <div class="block-text">
+                  <h3 class="title-section">Рассчитаем финальную стоимость</h3>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+</main>
+       
 
 <footer class="footer">
   <nav class="navbar">
@@ -292,31 +320,6 @@
 
     
     <div class="btn_1 btn_1__more btn_1__up btn_1__up_hide">Вверх</div>
-
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Оставьте заявку на обучение</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="form-group">
-                  <label for="recipient-name" class="col-form-label">Ваш номер телефона</label>
-                  <input type="text" class="form-control" id="recipient-name">
-                </div>
-                <div class="form-group">
-                  <label for="message-text" class="col-form-label">Комментарий</label>
-                  <textarea class="form-control" id="message-text"></textarea>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

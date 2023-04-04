@@ -1,0 +1,17 @@
+form {
+    width: 450px;
+    margin: $m-0 auto;
+}
+
+fieldset {
+    border: 2px solid yellow;
+    padding: $p-0-5;
+    margin: $m-1;
+}
+
+input,
+label {
+  margin-top: $m-1-5;
+  padding: $p-1;
+  text-align: left;
+}

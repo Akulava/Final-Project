@@ -32,6 +32,7 @@
         <div class="logo">
             <img src="../img/icons/logo1.png" alt="logo" width="90" height="90">
             <a href="../index.html" class="logo-title">ITChild</a>
+            <a href="#Заявка" class="btn_1 btn_1__more">Записаться на курс</a>
         </div>
 
         <nav class="navbar">
@@ -44,6 +45,124 @@
             </ul>
         </nav>
     </header>
+    <main class="main">
+        <section class="container section section-1 line">
+            <div class="section__block">
+            <div class="title">Новости сегодня</div>
+            </div>
+                <div class="section__block">
+                   <div class="cards">
+                    <h1 class="title">Online IT-марафон по JavaScript</h1>
+                    <p class="title-description">Приглашаем ребят от 11 лет на марафон по JavaScript. Это будет насыщенный 4-недельный марафон...</p>
+                    <a href="#" class="btn_1 btn_1__more" data-toggle="modal" data-target="#exampleModalCenter">Подробнее</a>
+                   </div>
+                </div>
+
+                <div class="section__block">
+                    <div class="cards">
+                     <h1 class="title">Чат для родителей!</h1>
+                     <p class="title-description">Специально для Вас сообщество для родителей юных айтишников...</p>
+                     <a href="#" class="btn_1 btn_1__more" data-toggle="modal" data-target="#exampleModalCenter">Читать</a>
+                    </div>
+                 </div>
+        </section>
+
+        <section class="container section section-5">
+            <div class="section__block">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="cards">
+                      <img src="../img/icons/images.png" class="product__image" alt="icon" width="190" height="190">
+                    </div>
+      
+                    <div class="cards">
+                      <img src="../img/icons/image1.png" class="product__image" alt="icon" width="190" height="190">
+                    </div>
+      
+                    <div class="cards">
+                      <img src="../img/icons/computer.png" class="product__image" alt="icon" width="190" height="190">
+                    </div>
+                    <div class="cards">
+                      <img src="../img/icons/IT-Ch.jpg" class="product__image" alt="icon" width="190" height="190">
+                    </div>
+                  </div>
+  
+                  <div class="swiper-slide">
+                    <div class="cards">
+                      <img src="../img/icons/maket.png" class="product__image" alt="icon" width="190" height="190">
+                    </div>
+      
+                    <div class="cards">
+                      <img src="../img/icons/swiper.png" class="product__image" alt="icon" width="190" height="190">
+                    </div>
+      
+                    <div class="cards">
+                      <img src="../img/icons/swiper1.png" class="product__image" alt="icon" width="190" height="190">
+                    </div>
+      
+                    <div class="cards">
+                      <img src="../img/icons/swiper3.png" class="product__image" alt="icon" width="190" height="190">
+                    </div>
+                  </div>
+                </div>
+              
+                  <div class="swiper-scrollbar"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <section class="container section section-3 line">
+            <h1 class="title">Оставьте заявку на обучение</h1>
+          <div id="Заявка" class="section__block">
+            <div class="section__block_description">
+              <form action="https:/fe.it-academy.by/TestForm.php" method="post" target="_blank">
+              <fieldset>
+                <label for="name">Имя</label>
+                <input type="text" name="name" required placeholder="Ввевиде Ваше имя"><br>
+                <br>
+                <label for="tel">Телефон</label>
+                <input type="tel" name="tel" required placeholder="+375 29 ___-__-__">
+                <br>
+                <button type="submit" class="btn_1">Оставить заявку</button>
+                <br>
+                <input type="checkbox" name="info">
+                <label for="info">Хочу получать информацию о курсах</label>
+              </fieldset>
+              </form>
+          </div>
+  
+          <div class="section__block_description">
+            <ul class="lists">
+  
+              <li class="navbar__list">
+                <div class="block">
+                  <img src="../img/icons/icon1.jpg" alt="icon" width="100" height="100">
+                  <div class="block-text">
+                    <h3 class="title-section">Отправим на почту подробную презентацию курсов</h3>
+                  </div>
+                </div>
+              </li>
+              <li class="navbar__list">
+                <div class="block">
+                  <img src="../img/icons/icon2.jpg" alt="icon" width="100" height="100">
+                  <div class="block-text">
+                    <h3 class="title-section">Перезвоним, поможем подобрать курс</h3>
+                  </div>
+                </div>
+              </li>
+              <li class="navbar__list">
+                <div class="block">
+                  <img src="../img/icons/icon3.jpg" alt="icon" width="100" height="100">
+                  <div class="block-text">
+                    <h3 class="title-section">Рассчитаем финальную стоимость</h3>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+    </main>
 
     <footer class="footer">
         <nav class="navbar">
@@ -88,19 +207,33 @@
 
         <div class="section__block_description">
             <ul class="navbar__lists">
-                <li class="navbar__list"><a href="#" class="navbar__link"><img src="../img/icons/linkedin.svg"
-                            alt="social"></a>
-                </li>
-                <li class="navbar__list"><a href="#" class="navbar__link"><img src="../img/icons/facebook.svg"
-                            alt="social"></a>
-                </li>
-                <li class="navbar__list"><a href="#" class="navbar__link"><img src="../img/icons/twitter.svg"
-                            alt="social"></a>
-                </li>
+                <li class="navbar__list"><a href="#" class="navbar__link"><img src="../img/icons/linkedin.svg" alt="social"></a></li>
+                <li class="navbar__list"><a href="#" class="navbar__link"><img src="../img/icons/facebook.svg" alt="social"></a></li>
+                <li class="navbar__list"><a href="#" class="navbar__link"><img src="../img/icons/twitter.svg" alt="social"></a></li>
             </ul>
-
         </div>
     </div>
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="exampleModalLongTitle">ПРОГРАММА МАРАФОНА:</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">21 апреля 18.00 <br>Знакомство с JavaScript. Переменные. Типы данных. Выражения. Математика.
+                <br> 28 апреля 18.00.<br>Операторы сравнения. Условное ветвление: if. Логические операторы. Конструкция switch.
+                <br>4 мая 18.00. <br> Массивы. Литеральные объекты.<br>11 мая 18.00.<br>Функции.<br>
+                Попасть на марафон можно, написав в любую социальную сеть (viber, telegram, WhatsApp) по номеру +375(29)2537577:  ХОЧУ НА МАРАФОН JS.
+                Администратор сбросит вам инструкцию.<br>
+                ЖДЕМ ВСЕХ ЖЕЛАЮЩИХ!!!</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
     <div class="btn_1 btn_1__more btn_1__up btn_1__up_hide">Вверх</div>
@@ -118,9 +251,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-    <script type="module" src="./js/swiper.js"></script>
-    <script type="module" src="./js/modal.js"></script>
-    <script type="module" src="./js/scroll_up.js"></script>
+    <script type="module" src="../js/swiper.js"></script>
+    <script type="module" src="../js/modal.js"></script>
+    <script type="module" src="../js/scroll_up.js"></script>
 </body>
 
 </html>
