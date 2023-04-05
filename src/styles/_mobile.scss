@@ -1,0 +1,36 @@
+@media only screen and (max-width: 780px) {
+    nav ul {
+      width: 100%;
+      position: absolute;
+      top: 75px;
+      right: 0;
+  
+      background: $primary-color;
+      z-index: 2;
+    }
+  
+    nav ul li {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  
+    nav ul li a {
+      color: $color-yellow;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+    
+    .navbar {
+      overflow: hidden;
+      transition: .5s;
+    }
+
+    .main {
+      flex-direction: column-reverse;
+      margin: 50px 0;
+    }
+  }
+  
